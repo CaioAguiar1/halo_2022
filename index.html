@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Halo</title>
+
+    <link rel="shortcut icon" href="./img/dd2wf7c-dcbc9334-76d8-4eb5-a6d5-c35e456c7839.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Historia</a></li>
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Contato</a></li>
+            
+        </ul>
+    </div>
+    <seleciton class="banner">
+        <header>
+            <a href="index.html"><img class="logo" src="./img/logo.png"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+        </header>
+        <video src="./video/y2meta.com-Halo The Series (2022) _ Official Trailer _ Paramount+-(1080p).mp4" muted loop autoplay></video>
+        <div class="text">
+            <h2>O DESTINO DE TODOS, O SACRIFICIO DE UM SÓ.</h2>
+            <p>Master Chief, um super-soldado ciberneticamente modificado, defende a humanidade contra o Covenant,
+                 uma aliança de alienígenas fanáticos, no século 26.</p>
+            <a href="https://www.youtube.com/watch?v=5KZ3MKraNKY" class="buttom"><span>Trailer</span></a>
+        </div>
+    </seleciton>
+    <script type="text/javascript">
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var banner = document.querySelector('.banner');
+            menuToggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
